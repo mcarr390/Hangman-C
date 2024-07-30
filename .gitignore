@@ -1,0 +1,36 @@
+# Ignore CMake build directory
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore IDE specific files
+.idea/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.dylib
+
+# Ignore generated files
+*.log
+*.tmp
+
+# Ignore other temporary files
+*~
+*.swp
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore core dumps
+core
+
+# Ignore compiled python files
+*.pyc
+*.pyo
+*.pyd
+
